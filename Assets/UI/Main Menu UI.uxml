@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/ButtonStyle.uss?fileID=7433441132597879392&amp;guid=9ce0bea93b5278c46b616236da63306f&amp;type=3#ButtonStyle" />
+    <ui:VisualElement name="Background" style="flex-grow: 1; align-items: flex-start; justify-content: space-around; color: rgb(117, 240, 255); padding-left: 40px; padding-right: 40px; padding-top: 40px; padding-bottom: 40px;">
+        <ui:VisualElement name="VisualElement" style="color: rgb(255, 255, 255); border-left-color: rgb(0, 107, 255); border-right-color: rgb(0, 107, 255); border-top-color: rgb(0, 107, 255); border-bottom-color: rgb(0, 107, 255); background-color: rgb(255, 255, 255); height: 430px; width: 354px; justify-content: space-around; align-items: center; border-left-width: 6px; border-right-width: 6px; border-top-width: 6px; border-bottom-width: 6px; border-top-left-radius: 20px; border-bottom-left-radius: 20px; border-top-right-radius: 20px; border-bottom-right-radius: 20px; -unity-text-align: middle-center; -unity-font-style: normal; padding-left: 70px; padding-right: 70px; padding-top: 120px; padding-bottom: 50px;">
+            <ui:Label text="MAIN MENU" display-tooltip-when-elided="true" name="lblMainMenu" style="-unity-font-style: bold; color: rgb(0, 0, 0); font-size: 50px; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; -unity-text-align: middle-center; position: absolute; top: 25px; height: 73px; align-items: stretch; justify-content: flex-start;" />
+            <ui:Button text="VS PLAYER" display-tooltip-when-elided="true" name="btnVsPlayer" class="ButtonStyle" />
+            <ui:Button text="VS AI" display-tooltip-when-elided="true" name="btnVsAI" class="ButtonStyle" />
+            <ui:Button text="QUIT" display-tooltip-when-elided="true" name="btnQuit" class="ButtonStyle" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
