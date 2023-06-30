@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VsAI.unity
     guid: 35aa4ef55fa6a9741a2cc57d013bfdaa
+  - enabled: 1
+    path: Assets/Scenes/VsNeuralNetwork.unity
+    guid: 97691a34f97037b4d8b0d80e2dbafb2b
   m_configObjects: {}

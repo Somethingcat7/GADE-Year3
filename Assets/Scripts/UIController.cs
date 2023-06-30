@@ -60,7 +60,7 @@ public class UIController : MonoBehaviour
         }
         else 
         {
-            SceneManager.LoadScene("VsAI");
+            SceneManager.LoadScene("VsNeuralNetwork");
         }
         
     }
